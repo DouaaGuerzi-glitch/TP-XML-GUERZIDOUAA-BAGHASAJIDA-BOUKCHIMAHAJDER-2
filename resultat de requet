@@ -1,0 +1,154 @@
+<result>
+  (: Q1: Liste des membres :)
+  <membres>
+    <membre id="M001">
+      <nomComplet>Ahmed Benali</nomComplet>
+      <email>a.benali@club.dz</email>
+      <categorie>Intelligence Artificielle</categorie>
+    </membre>
+    <membre id="M002">
+      <nomComplet>Lyna Zerrouk</nomComplet>
+      <email>l.zerrouk@club.dz</email>
+      <categorie>Intelligence Artificielle</categorie>
+    </membre>
+    <membre id="M003">
+      <nomComplet>Sofiane Khelif</nomComplet>
+      <email>s.khelif@club.dz</email>
+      <categorie>Développement Web</categorie>
+    </membre>
+    <membre id="M004">
+      <nomComplet>Amira Boudiaf</nomComplet>
+      <email>a.boudiaf@club.dz</email>
+      <categorie>Développement Web</categorie>
+    </membre>
+    <membre id="M005">
+      <nomComplet>Rami Mansouri</nomComplet>
+      <email>r.mansouri@club.dz</email>
+      <categorie>Sécurité Informatique</categorie>
+    </membre>
+    <membre id="M006">
+      <nomComplet>Ines Haddad</nomComplet>
+      <email>i.haddad@club.dz</email>
+      <categorie>Sécurité Informatique</categorie>
+    </membre>
+    <membre id="M007">
+      <nomComplet>Yacine Boukadoum</nomComplet>
+      <email>y.boukadoum@club.dz</email>
+      <categorie>Intelligence Artificielle</categorie>
+    </membre>
+    <membre id="M008">
+      <nomComplet>Chaima Merabet</nomComplet>
+      <email>c.merabet@club.dz</email>
+      <categorie>Développement Web</categorie>
+    </membre>
+    <membre id="M009">
+      <nomComplet>Nadia Bouzid</nomComplet>
+      <email>n.bouzid@club.dz</email>
+      <categorie>Intelligence Artificielle</categorie>
+    </membre>
+    <membre id="M009">
+      <nomComplet>Nadia Bouzid</nomComplet>
+      <email>n.bouzid@club.dz</email>
+      <categorie>Intelligence Artificielle</categorie>
+    </membre>
+  </membres>,
+
+  (: Q2: Liste des concours ordonnés par date :)
+  <concoursList>
+    <concours>
+      <titre/>
+      <date/>
+      <coefficient/>
+      <categorie/>
+    </concours>
+    <concours>
+      <titre>Concours IA - Printemps 2025</titre>
+      <date>2025-03-15</date>
+      <coefficient>1.5</coefficient>
+      <categorie>Intelligence Artificielle</categorie>
+    </concours>
+    <concours>
+      <titre>Concours Web - Édition 2025</titre>
+      <date>2025-04-10</date>
+      <coefficient>2.0</coefficient>
+      <categorie>Développement Web</categorie>
+    </concours>
+    <concours>
+      <titre>Concours Sécurité - Challenge 2025</titre>
+      <date>2025-05-20</date>
+      <coefficient>1.8</coefficient>
+      <categorie>Sécurité Informatique</categorie>
+    </concours>
+  </concoursList>,
+
+  (: Q3: Calcul des scores par concours :)
+  <scoresParConcours>
+    <concours titre=""/>
+    <concours titre="Concours IA - Printemps 2025">
+      <participant score="307.5">Ahmed Benali</participant>
+      <participant score="300">Lyna Zerrouk</participant>
+      <participant score="312">Yacine Boukadoum</participant>
+    </concours>
+    <concours titre="Concours Web - Édition 2025">
+      <participant score="376">Sofiane Khelif</participant>
+      <participant score="374">Amira Boudiaf</participant>
+      <participant score="378">Chaima Merabet</participant>
+    </concours>
+    <concours titre="Concours Sécurité - Challenge 2025">
+      <participant score="315">Rami Mansouri</participant>
+      <participant score="322.2">Ines Haddad</participant>
+    </concours>
+  </scoresParConcours>,
+
+  (: Q4: Trouver le(s) vainqueur(s) de chaque concours :)
+  <vainqueurs>
+    <concours titre=""/>
+    <concours titre="Concours IA - Printemps 2025">
+      <vainqueur>
+        <nom>Yacine Boukadoum</nom>
+        <score>312.00</score>
+      </vainqueur>
+    </concours>
+    <concours titre="Concours Web - Édition 2025">
+      <vainqueur>
+        <nom>Chaima Merabet</nom>
+        <score>378.00</score>
+      </vainqueur>
+    </concours>
+    <concours titre="Concours Sécurité - Challenge 2025">
+      <vainqueur>
+        <nom>Ines Haddad</nom>
+        <score>322.20</score>
+      </vainqueur>
+    </concours>
+  </vainqueurs>,
+
+  (: Q5: Membres de la catégorie 'Intelligence Artificielle' :)
+  <membresCategorie categorie="Intelligence Artificielle">
+    <membre>
+      <nom>Benali</nom>
+      <prenom>Ahmed</prenom>
+      <email>a.benali@club.dz</email>
+    </membre>
+    <membre>
+      <nom>Boukadoum</nom>
+      <prenom>Yacine</prenom>
+      <email>y.boukadoum@club.dz</email>
+    </membre>
+    <membre>
+      <nom>Bouzid</nom>
+      <prenom>Nadia</prenom>
+      <email>n.bouzid@club.dz</email>
+    </membre>
+    <membre>
+      <nom>Bouzid</nom>
+      <prenom>Nadia</prenom>
+      <email>n.bouzid@club.dz</email>
+    </membre>
+    <membre>
+      <nom>Zerrouk</nom>
+      <prenom>Lyna</prenom>
+      <email>l.zerrouk@club.dz</email>
+    </membre>
+  </membresCategorie>
+</result>
