@@ -1,14 +1,18 @@
 # TP-XML-GUERZIDOUAA-BAGHASAJIDA-BOUKCHIMAHAJDER-2
 Application web permettant de gérer les concours du Club Info_Tech. Elle permet de consulter les concours, inscrire des membres et afficher les résultats avec calcul des scores.
-🏆 Club Info_Tech — TP1 XML/XQuery
-👥 Membres du groupe
-#Nom & PrénomRôle1Guerzi DouaaPHP, Connexion PHP-BaseX, Vidéo YouTube2Bagha SajidaXML, XSD, XQuery3Boukchima HajderBaseX, GitHub, README
 
-📋 Description
+ 
+ Club Info_Tech — TP1 XML/XQuery
+ Membres du groupe
+1Guerzi Douaa:PHP, Connexion PHP-BaseX, Vidéo YouTube
+2Bagha SajidaXML, XSD, XQuery
+3Boukchima HajderBaseX, GitHub, README
+
+ Description
 Application web permettant de gérer les concours du Club Info_Tech.
 Elle permet de consulter les concours, inscrire des membres et afficher les résultats avec calcul des scores.
 
-🛠️ Technologies utilisées
+ Technologies utilisées
 
 XML / XSD — Structure et validation des données
 XQuery — Requêtes et mises à jour des données
@@ -17,7 +21,7 @@ PHP 8.2 — Serveur web et interface utilisateur
 HTML / CSS — Interface graphique
 
 
-📁 Structure du projet
+Structure du projet
 TP1_XML/
 ├── web/
 │   ├── index.php          # Page principale — liste des concours
@@ -29,7 +33,7 @@ TP1_XML/
 ├── requies.xq             # Requêtes XQuery (Q1 à Q5)
 └── updates.xq             # Mises à jour XQuery
 
-👤 Répartition du travail
+ Répartition du travail
 Guerzi Douaa — PHP & Connexion PHP-BaseX & Vidéo YouTube
 Fichiers :
 
